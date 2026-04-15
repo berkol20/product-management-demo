@@ -1,0 +1,24 @@
+# Kütüphaneler (Kesinlikle pushlanmamalı!)
+node_modules/
+
+# Derlenmiş dosyalar (JS dosyaları src'den üretilir, gereksizdir)
+dist/
+
+# Loglar ve geçici dosyalar
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+
+# IDE ve Sistem dosyaları
+.DS_Store
+.vscode/
+.idea/
+
+# Çevresel değişkenler (Şifreler vb. yarın eklersen burası korur)
+.env
+.env.local
+
+# TypeScript incremental derleme dosyası
+*.tsbuildinfo
+
